@@ -1,6 +1,7 @@
 # ============ ЗАПУСК ============
 import telebot
-from config import TOKEN
+import os
+TOKEN = os.getenv("TOKEN")
 from database import init_db, init_admins
 import handlers.user as user_h
 import handlers.admin as admin_h
