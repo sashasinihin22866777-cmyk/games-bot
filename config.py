@@ -1,0 +1,9 @@
+# ============ КОНФИГ ============
+TOKEN = "8811180260:AAHwEIpJBuI5EzEk_od_RVbzNJE-T2XhNHg"
+OWNER_ID = 963549015
+ADMIN_IDS = [963549015, 8021964668]
+OFFICIAL_CHAT_ID = -1003875113461
+BASE_XP = 100
+DB_PATH = "bot.db"
+LOG_DIR = "logs"
+ADMIN_LOG_FILE = "logs/admin.log"
