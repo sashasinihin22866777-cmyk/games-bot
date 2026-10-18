@@ -1,13 +1,14 @@
 # ============ ЗАПУСК ============
 import telebot
-import os
-TOKEN = os.getenv("TOKEN")
+from config import TOKEN
 from database import init_db, init_admins
-import handlers.user as user_h
-import handlers.admin as admin_h
-import handlers.group as group_h
-import games.casino as casino
-import games.tictactoe as ttt
+
+# Хитрый импорт: ищем файлы в корне (так как папки GitHub не создал)
+import user as user_h
+import admin as admin_h
+import group as group_h
+import casino as casino
+import tictactoe as ttt
 
 bot = telebot.TeleBot(TOKEN)
 init_db()
