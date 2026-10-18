@@ -1,5 +1,5 @@
-# ============ КОНФИГ ============
-TOKEN = "8811180260:AAHwEIpJBuI5EzEk_od_RVbzNJE-T2XhNHg"
+import os
+TOKEN = os.getenv("BOT_TOKEN")
 OWNER_ID = 963549015
 ADMIN_IDS = [963549015, 8021964668]
 OFFICIAL_CHAT_ID = -1003875113461
